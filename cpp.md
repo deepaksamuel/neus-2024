@@ -100,7 +100,7 @@ Central University of Karnataka
 
 > https://github.com/Geant4/geant4/blob/master/source/run/include/G4VUserDetectorConstruction.hh
 
-- `Quiz`
+
 ---
 
 
@@ -153,7 +153,7 @@ After the above two lines, what would be the value of the determinant?
 
 - The determinant is undefined since the values of the matrix elements are not set!
 
-- Constructor: special function automatically called when an object or its pointer is created. Can be used to initialize the values of certain data members or any similar action. 
+- **Constructor:** special function automatically called when an object or its pointer is created. Can be used to initialize the values of certain data members or any similar action. 
 
 - Constructor has the same name as that of the class!
 
@@ -173,7 +173,7 @@ After the above two lines, what would be the value of the determinant?
 ---
 # **Destructors**
 - When too many pointers are created, there could be memory issues. Care should be taken to delete the pointers as soon as they are not required. A destructor is a special function that is called when an pointer is deleted. 
-- Destructor has the same name as the class with a ~ in front
+- **Destructor** has the same name as the class with a ~ in front
 
  ```c
     class Matrix{
@@ -202,7 +202,7 @@ After the above two lines, what would be the value of the determinant?
     };
       
 ```
-Matrix is the parent class and PauliSpinMatrix is the inherited class.
+**Matrix** is the parent or base class and **PauliSpinMatrix** is the inherited class.
 
 ---
 # ```Geant4``` classes code conventions
