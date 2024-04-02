@@ -52,6 +52,7 @@ Central University of Karnataka
 - Basic python or ROOT programming
 - Basic linux commands (cd, ls, mkdir, cp, rm, rm -r, ~, LD_LIBRARY_PATH)
 
+> *quiz*
 
 ---
 ## **Download links**
@@ -68,33 +69,19 @@ Central University of Karnataka
 
 ---
 ## **Geant4 compilation**
-- https://geant4.web.cern.ch/download/11.2.1.html
+- Preferred OS: Ubuntu
+  https://geant4.web.cern.ch/download/11.2.1.html
 - Need to download both source codes (500 MB) and datasets (2 GB)
 - Compile them 
 - *Warning:* Install Anaconda only after installation of Geant4
+- Instructions for installation of other software can also be found at 
+https://github.com/deepaksamuel/ehep-2023
 ---
 ## **Helper script to install required software**
 
 - I have written a script which will download all requirements and install dependencies. The script named `neus.sh` is found in this repository, you can download it on your Desktop:
 
-> https://raw.githubusercontent.com/deepaksamuel/ehep-2023/main/ehep.sh
-
-- Right click and save link as `neus.sh` on your Desktop
-
-- Once saved, on your terminal execute the command source neus.sh
-
-- Please note that this script will also download the Geant4 datasets which may be extremely time consuming. However, as soon as the datasets downloading begins, parallely you can compile other codes.
-
-- Do not close the terminal in which the `neus.sh `script is running. Open a new terminal for parallely compiling the other programmes.
-
-
----
-
-## **Helper script to install required software**
-
-- I have written a script which will download all requirements and install dependencies. The script named `neus.sh` is found in this repository, you can download it on your Desktop:
-
-> https://raw.githubusercontent.com/deepaksamuel/ehep-2023/main/ehep.sh
+> https://raw.githubusercontent.com/deepaksamuel/neus-2024/master/neus.sh
 
 - Right click and save link as `neus.sh` on your Desktop
 

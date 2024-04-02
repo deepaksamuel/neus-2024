@@ -8,6 +8,7 @@ style: |
   }
 paginate: true
 ---
+
 ## **Geant4 overview and C++ concepts**
 
 Deepak Samuel
@@ -61,7 +62,7 @@ Central University of Karnataka
 ```
 ---
 
-# **Class organization**
+# **File and folder structure**
 
 ***Header file (Matrix.h or Matrix.hh files)***
  ```c
@@ -480,7 +481,7 @@ typedef G4THitsCollection<B4cCalorHit> B4cCalorHitsCollection;
 - `B4cCalorHitsCollection` is  now an alias for a G4THitsCollection that specifically stores `B4cCalorHit` objects.
 
 </div>
-</div>
+
 
 ---
 
