@@ -142,7 +142,7 @@ Central University of Karnataka</p>
   gap: 1rem;
 }
 ;" data-marpit-pagination-total="20">
-<h1 id="class-organization"><strong>Class organization</strong></h1>
+<h1 id="file-and-folder-structure"><strong>File and folder structure</strong></h1>
 <p><em><strong>Header file (Matrix.h or Matrix.hh files)</strong></em></p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c">   <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Matrix</span>{</span>
        <span class="hljs-type">int</span> a00; <span class="hljs-comment">// data members</span>
@@ -403,8 +403,8 @@ m-&gt;determinant();
 }
 ;" data-marpit-pagination-total="20">
 <h1 id="detectorconstruction-class"><code>DetectorConstruction</code> class</h1>
-&lt;div class="columns"&gt;
-&lt;div&gt;
+<div class="columns">
+<div>
 <h6 id="b1detectorconstructionhh">B1DetectorConstruction.hh</h6>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DetectorConstruction</span> :</span> public G4VUserDetectorConstruction
 {
@@ -426,8 +426,8 @@ Indicates  an abstract class:</p>
 <blockquote>
 <p>Virtual methods to be overridden by inherited classes.</p>
 </blockquote>
-&lt;/div&gt;
-&lt;div&gt;
+</div>
+<div>
 <h5 id="g4vuserdetectorconstructionhh">G4VUserDetectorConstruction.hh</h5>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">G4VUserDetectorConstruction</span>
 {</span>
@@ -457,8 +457,8 @@ Indicates  an abstract class:</p>
 
 };
 </code></pre>
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15" data-paginate="true" data-style=".columns {
   display: grid;
@@ -472,8 +472,8 @@ Indicates  an abstract class:</p>
 }
 ;" data-marpit-pagination-total="20">
 <h1 id="access-specifiers">Access specifiers</h1>
-&lt;div class="columns"&gt;
-&lt;div&gt;
+<div class="columns">
+<div>
 <h6 id="b1detectorconstructionhh-1">B1DetectorConstruction.hh</h6>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DetectorConstruction</span> :</span> public G4VUserDetectorConstruction
 {
@@ -490,16 +490,16 @@ Indicates  an abstract class:</p>
 };
 
 </code></pre>
-&lt;/div&gt;
-&lt;div&gt;
+</div>
+<div>
 <ul>
 <li>Access specifiers:<br />
 <code>public</code> - members accessible from outside the class<br />
 <code>private</code> - members cannot be accessed outside the class<br />
 <code>protected</code> - members cannot be accessed from outside the class,  can be accessed in inherited classes.</li>
 </ul>
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16" data-paginate="true" data-style=".columns {
   display: grid;
@@ -513,8 +513,8 @@ Indicates  an abstract class:</p>
 }
 ;" data-marpit-pagination-total="20">
 <h1 id="access-specifiers-1">Access specifiers</h1>
-&lt;div class="columns"&gt;
-&lt;div&gt;
+<div class="columns">
+<div>
 <h6 id="example">Example</h6>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyClass</span> {</span>
   public:    <span class="hljs-comment">// Public access specifier</span>
@@ -530,16 +530,16 @@ Indicates  an abstract class:</p>
   <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
 }
 </code></pre>
-&lt;/div&gt;
-&lt;div&gt;
+</div>
+<div>
 <ul>
 <li>Access specifiers:<br />
 <code>public</code> - members accessible from outside the class<br />
 <code>private</code> - members cannot be accessed outside the class<br />
 <code>protected</code> - members cannot be accessed from outside the class,  can be accessed in inherited classes.</li>
 </ul>
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-paginate="true" data-style=".columns {
   display: grid;
@@ -553,17 +553,17 @@ Indicates  an abstract class:</p>
 }
 ;" data-marpit-pagination-total="20">
 <h1 id="templates">Templates</h1>
-&lt;div class="columns"&gt;
-&lt;div&gt;
+<div class="columns">
+<div>
 <h6 id="example-1">Example</h6>
 <p><img src="img/cpp-function-template.webp" alt="Alt text" title="a title" /></p>
-&lt;/div&gt;
-&lt;div&gt;
+</div>
+<div>
 <ul>
 <li>T is a template argument that accepts different data types (int, float, etc.), and typename is a keyword</li>
 </ul>
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" data-paginate="true" data-style=".columns {
   display: grid;
@@ -577,8 +577,8 @@ Indicates  an abstract class:</p>
 }
 ;" data-marpit-pagination-total="20">
 <h1 id="templates-1">Templates</h1>
-&lt;div class="columns"&gt;
-&lt;div&gt;
+<div class="columns">
+<div>
 <h6 id="g4thitscollectionhh"><code>G4THitsCollection.hh</code></h6>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">G4HitsCollection</span> :</span> public G4VHitsCollection
 {
@@ -605,16 +605,16 @@ template &lt;<span class="hljs-class"><span class="hljs-keyword">class</span> <s
       virtual ~G4THitsCollection();
       G4int operator==(<span class="hljs-type">const</span> G4THitsCollection&lt;T&gt; &amp;right) <span class="hljs-type">const</span>;
 </code></pre>
-&lt;/div&gt;
-&lt;div&gt;
+</div>
+<div>
 <ul>
 <li><code>G4HitsCollection</code> inherits the abstract class <code>G4VHitsCollection</code></li>
 <li><code>G4THitsCollection</code> is a template class that in turn inherits the <code>G4HitsCollection</code> class</li>
 <li>All <code>G4T</code> classes are template classes</li>
 <li>A hit collection is a vector of user defined Hits.</li>
 </ul>
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
+</div>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-paginate="true" data-style=".columns {
   display: grid;
@@ -628,8 +628,8 @@ template &lt;<span class="hljs-class"><span class="hljs-keyword">class</span> <s
 }
 ;" data-marpit-pagination-total="20">
 <h1 id="templates-2">Templates</h1>
-&lt;div class="columns"&gt;
-&lt;div&gt;
+<div class="columns">
+<div>
 <h6 id="b4ccalorhithh"><code>B4cCalorHit.hh</code></h6>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-c"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">B4cCalorHit</span> :</span> public G4VHit
 {
@@ -665,14 +665,13 @@ template &lt;<span class="hljs-class"><span class="hljs-keyword">class</span> <s
 <span class="hljs-keyword">typedef</span> G4THitsCollection&lt;B4cCalorHit&gt; B4cCalorHitsCollection;
 
 </code></pre>
-&lt;/div&gt;
-&lt;div&gt;
+</div>
+<div>
 <ul>
 <li>A collection of <code>B4cCalorHit</code>s can be defined using the template class.</li>
 <li><code>B4cCalorHitsCollection</code> is  now an alias for a G4THitsCollection that specifically stores <code>B4cCalorHit</code> objects.</li>
 </ul>
-&lt;/div&gt;
-&lt;/div&gt;
+</div>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-style=".columns {
   display: grid;

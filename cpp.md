@@ -218,6 +218,7 @@ Matrix is the parent class and PauliSpinMatrix is the inherited class.
 # ```DetectorConstruction``` class
 
 <div class="columns">
+
 <div>
 
 ###### B1DetectorConstruction.hh
